@@ -105,4 +105,16 @@ if an_other_student==True:
     print(student)
 
 
-  
+  ### adding two dictionaries to the original dictionary(student)
+
+  student['subjects'] = {'Math': '', 'English': '', 'science': '', 'Arabic': ''}
+
+for j in (student['subjects']):
+  student['subjects'][j] = int(input('enter the subjects grade :'))
+
+student['teachers'] = {'Math': '', 'Arabic': '', 'science': '', 'Arabic': ''}
+
+for c in (student['teachers']):
+  student['teachers'][c] = input('enter the teachers name :')
+
+print(student)
